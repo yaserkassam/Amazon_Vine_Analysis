@@ -3,7 +3,7 @@
 
 ## Overview of the Analysis
 
-In this analysis we took Amazon reviews written by people who have paid the Amazon Vine program. We used AWS and downloaded the file into Pyspark. Using the ETL process we created 4 new dataframes. After, we loaded it into our PgAdmin and loaded them into our PostgreSQL database. Using PgAdmin I created a csv file of the vine table. Then, I read the csv file through Pandas and created more analysis to see if the amount 5-star reviews are different between people who have paid for vine and who did not.
+In this analysis I took Amazon reviews written by people who have paid the Amazon Vine program. I used AWS and downloaded the file into Pyspark. Using the ETL process I created 4 new data frames. After, loading it into our PgAdmin and loaded them into our PostgreSQL database. Using PgAdmin I created a csv file of the vine table. Then, I read the csv file through Pandas and created more analysis to see if the amount 5-star reviews are different between people who have paid for vine and who did not.
 
 ## Results
 ### Review statistics for People who were vine reviews:
